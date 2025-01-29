@@ -1,21 +1,21 @@
 import React from "react";
 import avatarImg from "../../assets/abc.png";
+import TextChanger from "../TextChanger";
 
 const Home = () => {
     return (
         <div className="text-white flex w-full justify-between items-start p-10 md:p-20">
             <div className="md:w-2/4 md:pt-10 ">
-                <h1 className="text-3x1 md:text-6x1 font-bold flex leading-normal tracking-tighter">
-                    Hello I am Aditi
+                <h1 className="text-5x1 md:text-8x1 font-bold flex leading-normal tracking-tighter">
+                    <TextChanger/>
                 </h1>
                 <p className="text-sm md:text-2x1 tracking-tight ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
-                    doloremque? Aspernatur, s
+                    A passionate software developer crafting efficient, scalable, and user-friendly solutions with cutting-edge technologies.
                 </p>
-                <button className="mt-5 md:md-10text-white py02 px-3 text-sm md:text-1g md:py-2 md:px-4 hover:opacity-85 
-                duration-300 hover:scale-105 font-semibold rounded-3x1bg-[#465697]">Contact Me</button>
+                <button className="mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 
+                duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">Contact Me</button>
             </div>
-            <div><img className="w-2/5" src={avatarImg} alt="" /></div> 
+            <div><img className="" src={avatarImg} alt="" /></div> 
         </div>
     );
 };
