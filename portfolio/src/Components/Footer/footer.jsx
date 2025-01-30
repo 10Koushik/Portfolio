@@ -15,6 +15,13 @@ const footer = () => {
                 <h3 className="text-sm md:text-2xl font-normal">
                     Feel Free To reach out!
                 </h3>
+                <a
+                    href="../../assets/Koushik.pdf"
+                    download="Your_CV.pdf"
+                    className="mt-4 inline-block bg-blue-600 text-white px-6 py-2 rounded-lg text-lg font-medium hover:bg-blue-700 transition"
+                >
+                    Download CV
+                </a>
             </div>
             <ul className="text-sm md:text-xl">
                 <li className="flex gap-1 items-center">
