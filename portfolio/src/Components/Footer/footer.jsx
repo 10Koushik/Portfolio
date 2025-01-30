@@ -8,37 +8,40 @@ const footer = () => {
     return (
         <div
             id="Footer"
-            className="flex justify-around bg-[#465697] text-white p-10 md:p-12 items-center"
+            className="flex justify-around p-10 md:p-12 items-center bg-[#1E3A8A]"
         >
             <div>
-                <h1 className="text-2xl md:text-6xl font-bold">Contact</h1>
-                <h3 className="text-sm md:text-2xl font-normal">
-                    Feel Free To reach out!
-                </h3>
-                <a
-                    href="../../assets/Koushik.pdf"
-                    download="Your_CV.pdf"
-                    className="mt-4 inline-block bg-blue-600 text-white px-6 py-2 rounded-lg text-lg font-medium hover:bg-blue-700 transition"
-                >
-                    Download CV
-                </a>
+                <h2 className="text-2xl md:text-4xl font-bold text-white">Get in Touch</h2>
+                <p className="text-sm md:text-xl font-normal text-indigo-200">Interested in collaborating or just want to chat?  Feel free to reach out!</p>
             </div>
-            <ul className="text-sm md:text-xl">
-                <li className="flex gap-1 items-center">
+            <ul className="text-sm md:text-xl text-indigo-200">
+                <li className="flex gap-1 items-center ">
                     <MdOutlineEmail size={20} />
-                    koushik.use@gmail.com
+                    <a href="mailto:koushik.use@gmail.com" className="hover:underline">
+                        koushik.use@gmail.com
+                    </a>
                 </li>
                 <li className="flex gap-1 items-center">
                     <CiLinkedin />
-                    linkdlin.com/koushik
+                    <a href="https://www.linkedin.com/in/koushik" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                        linkedin.com/koushik
+                    </a>
                 </li>
                 <li className="flex gap-1 items-center">
-                    <FaGithub />
-                    github.com/10Koushik
+                    <a href="https://github.com/10Koushik" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
+                        <FaGithub />
+                        github.com/10Koushik
+                    </a>
                 </li>
                 <li className="flex gap-1 items-center">
-                    <FiPhone size={20} />
-                    +91-8210026543/6205085835
+                    <a href="tel:+918210026543" className="flex items-center gap-1">
+                        <FiPhone size={20} />
+                        +91-8210026543
+                    </a>
+                    <span className="mx-1">/</span>
+                    <a href="tel:+916205085835" className="flex items-center gap-1">
+                        6205085835
+                    </a>
                 </li>
             </ul>
         </div>
