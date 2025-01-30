@@ -6,10 +6,10 @@ const Home = () => {
     return (
         <div className="text-white flex w-full justify-between items-start p-10 md:p-20">
             <div className="md:w-2/4 md:pt-10 ">
-                <h1 className="text-5x1 md:text-8x1 font-bold flex leading-normal tracking-tighter">
+                <h1 className="text-4xl md:text-7xl font-bold flex leading-normal tracking-tighter">
                     <TextChanger/>
                 </h1>
-                <p className="text-sm md:text-2x1 tracking-tight ">
+                <p className="text-base md:text-xl tracking-tight">
                     A passionate software developer crafting efficient, scalable, and user-friendly solutions with cutting-edge technologies.
                 </p>
                 <button className="mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 
