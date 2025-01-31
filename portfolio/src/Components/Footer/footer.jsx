@@ -1,21 +1,26 @@
 import React from 'react';
 import { MdOutlineEmail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaWhatsapp } from "react-icons/fa";
 import { FiPhone } from "react-icons/fi";
 
-const footer = () => {
+const Footer = () => {
     return (
         <div
             id="Footer"
-            className="flex justify-around p-10 md:p-12 items-center bg-[#1E3A8A]"
+            className="flex flex-col md:flex-row justify-around p-10 md:p-12 items-center bg-[#1E3A8A]"
         >
-            <div>
-                <h2 className="text-2xl md:text-4xl font-bold text-white">Get in Touch</h2>
-                <p className="text-sm md:text-xl font-normal text-indigo-200">Interested in collaborating or just want to chat?  Feel free to reach out!</p>
+            <div className="flex items-center gap-8 md:gap-12">
+                <a href="https://wa.me/918210026543" target="_blank" rel="noopener noreferrer" className="text-green-400 text-5xl md:text-6xl">
+                    <FaWhatsapp />
+                </a>
+                <div>
+                    <h2 className="text-2xl md:text-4xl font-bold text-white">Get in Touch</h2>
+                    <p className="text-sm md:text-xl font-normal text-indigo-200">Interested in collaborating or just want to chat?  Feel free to reach out!</p>
+                </div>
             </div>
-            <ul className="text-sm md:text-xl text-indigo-200">
-                <li className="flex gap-1 items-center ">
+            <ul className="text-sm md:text-xl text-indigo-200 mt-6 md:mt-0">
+                <li className="flex gap-1 items-center">
                     <MdOutlineEmail size={20} />
                     <a href="mailto:koushik.use@gmail.com" className="hover:underline">
                         koushik.use@gmail.com
@@ -48,4 +53,4 @@ const footer = () => {
     )
 }
 
-export default footer
+export default Footer;
