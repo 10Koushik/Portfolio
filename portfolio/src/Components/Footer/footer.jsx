@@ -16,10 +16,9 @@ const Footer = () => {
                 </a>
                 <div>
                     <h2 className="text-2xl md:text-4xl font-bold text-white">Get in Touch</h2>
-                    <p className="text-sm md:text-xl font-normal text-indigo-200">Interested in collaborating or just want to chat?  Feel free to reach out!</p>
-                </div>
+                    <p className="text-xm md:text-2sl font-bold text-indigo-200 font-mono italic">Interested in collaborating or just want to chat? Feel free to reach out!</p>                </div>
             </div>
-            <ul className="text-sm md:text-xl text-indigo-200 mt-6 md:mt-0">
+            <ul className="text-sm md:text-xl text-indigo-200 mt-6 md:mt-0 font-mono">
                 <li className="flex gap-1 items-center">
                     <MdOutlineEmail size={20} />
                     <a href="mailto:koushik.use@gmail.com" className="hover:underline">
