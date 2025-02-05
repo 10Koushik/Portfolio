@@ -1,5 +1,5 @@
 import React from "react";
-import avatarImg from "../../assets/abc.png";
+import avatarImg from "../../assets/netflix.png";
 import TextChanger from "../TextChanger";
 import Cv from "../../assets/Koushik.pdf"
 
@@ -21,7 +21,7 @@ const Home = () => {
                     📄 Download CV
                 </a>
             </div>
-            <div><img className="" src={avatarImg} alt="" /></div>
+            <div><img className="md:w-90 md:h-90 object-cover rounded-full" src={avatarImg} alt="" /></div>
         </div>
     );
 };
@@ -52,7 +52,7 @@ export default Home;
 //                     📄 Download CV
 //                 </a >
 //             </div>
-//             <div><img className="" src={avatarImg} alt="" /></div>
+//             <div><img className="md:w-90 md:h-90 object-cover rounded-full" src={avatarImg} alt="" /></div>
 //         </div>
 //     );
 // };
