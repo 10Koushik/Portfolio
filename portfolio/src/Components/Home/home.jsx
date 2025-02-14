@@ -1,5 +1,5 @@
 import React from "react";
-import avatarImg from "../../assets/netflix.png";
+import avatarImg from "../../assets/Boy Profile.webp";
 import TextChanger from "../TextChanger";
 import Cv from "../../assets/Koushik.pdf"
 

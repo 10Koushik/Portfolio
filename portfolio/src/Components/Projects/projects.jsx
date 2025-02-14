@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import Blogimage from "../../assets/abc.png"
-import youtubeimage from "../../assets/bcd.png"
+import Blogimage from "../../assets/Blogging.jpeg"
+import youtubeimage from "../../assets/youtube.jpeg"
 import Netfliximage from "../../assets/netflix.png"
 
 
